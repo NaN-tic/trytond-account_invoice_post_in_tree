@@ -5,12 +5,13 @@ import trytond.tests.test_tryton
 from trytond.tests.test_tryton import ModuleTestCase
 
 
-class TestCase(ModuleTestCase):
-    'Test module'
+class TestAccountInvoicePostInTreeCase(ModuleTestCase):
+    'Test Account Invoice Post in Tree module'
     module = 'account_invoice_post_in_tree'
 
 
 def suite():
     suite = trytond.tests.test_tryton.suite()
-    suite.addTests(unittest.TestLoader().loadTestsFromTestCase(TestCase))
+    suite.addTests(unittest.TestLoader().loadTestsFromTestCase(ç
+        TestAccountInvoicePostInTreeCase))
     return suite
