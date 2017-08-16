@@ -12,6 +12,6 @@ class TestAccountInvoicePostInTreeCase(ModuleTestCase):
 
 def suite():
     suite = trytond.tests.test_tryton.suite()
-    suite.addTests(unittest.TestLoader().loadTestsFromTestCase(ç
+    suite.addTests(unittest.TestLoader().loadTestsFromTestCase(
         TestAccountInvoicePostInTreeCase))
     return suite
